@@ -1,0 +1,1 @@
+docker run --name mysql-store-nextjs14 --privileged -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=store -p 3302:3306 -d mysql:5.7
